@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Exciting Expeditions</title>
+
+    <meta name="description"
+          content="Contact Exciting Expeditions for reservations, questions, or suggestions. Find our address, map, and get in touch with our team.">
+    <meta name="author" content="Adu Joshua Onoriode">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Exciting Expeditions Logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact">
+
+        <h1>Contact Exciting Expeditions</h1>
+
+        <!-- Company Info -->
+        <section class="company-info">
+            <p><strong>Address:</strong> 123 Main River Street, Kolob, California</p>
+            <p><strong>Phone:</strong> +1 999 999 9999</p>
+            <p><strong>Email:</strong> info@excitingexpeditions.com</p>
+        </section>
+
+        <!-- Map + Form -->
+        <section class="contact-grid">
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019451057144!2d-113.053085!3d37.624837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80caed6e6c5a0b0f%3A0x8a5c3e2a5c7a9c5!2sKolob%20Canyons!5e0!3m2!1sen!2sus!4v1700000000000"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+
+        </section>
+
+        <!-- Employees -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <figure>
+                <img src="images/employee.jpg" alt="Lead River Guide">
+                <figcaption>James Carter – Lead River Guide</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/employee.jpg" alt="Operations Manager">
+                <figcaption>Linda Moore – Operations Manager</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/employee.jpg" alt="Customer Support">
+                <figcaption>Samuel Green – Customer Support</figcaption>
+            </figure>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Exciting Expeditions | Adu Joshua Onoriode</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="wwimages/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
